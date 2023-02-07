@@ -1,7 +1,14 @@
 package org.example;
 
+import java.util.Optional;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        String s = "dad";
+        Optional<String> stringOptional = Optional.ofNullable(s);
+
+        if(stringOptional.isPresent()) {
+            System.out.println(stringOptional.get());
+        }
     }
 }
