@@ -4,7 +4,8 @@ import java.util.Optional;
 
 public class Main {
     public static void main(String[] args) {
-        String s = "dad";
-        System.out.println(s.substring(0,1));
+        int i = 4;
+        char s = '3';
+        System.out.println(Integer.toString(i).charAt(0));
     }
 }
